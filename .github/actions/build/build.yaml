@@ -5,5 +5,5 @@ inputs:
     description: "Provide Github Sha as Tag"
     required: true
 runs:
-  using: "node16" # or "docker" depending on your setup
+  using: "node23" # or "docker" depending on your setup
   main: "index.js"
