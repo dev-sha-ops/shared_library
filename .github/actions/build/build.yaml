@@ -1,0 +1,9 @@
+name: "Build Action"
+description: "A reusable custom action."
+inputs:
+  tags:
+    description: "Provide Github Sha as Tag"
+    required: true
+runs:
+  using: "node16" # or "docker" depending on your setup
+  main: "index.js"
